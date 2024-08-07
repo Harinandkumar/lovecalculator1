@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(220, 236, 243);
+    background-color: #f0f0f0;
+    background-image: url("fadi-xd-I4dR572y7l0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input1 {
+    margin: 10px 0;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: calc(100% - 22px);
+}
+
+.love {
+    margin: 20px 0;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff007f;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e60073;
+}
+
+.result-percentage {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .result-percentage {
+        font-size: 20px;
+    }
+}
+
+/* Media Query for Very Small Screens */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .result-percentage {
+        font-size: 18px;
+    }
+}
+
+#resetButtonContainer {
+    display: none; /* Hide the reset button by default */
+}
+
+#resetButton {
+    margin-top: 20px; /* Add some space above the button */
+}
